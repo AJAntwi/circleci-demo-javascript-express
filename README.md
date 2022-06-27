@@ -223,7 +223,7 @@ Also, `target-path` supports [ejs](https://github.com/mde/ejs) and the following
           "target-path": "components/<%= helpers.capitalize(name) %>/<%= helpers.capitalize(name) %>.js"
         }
       ]
-    
+    }
     ```
     Here, notice the usage. In `<module-name>/<component-name>`, `<module-name>` will be passed as `parent` and `<component-name>` will be passed as `<name>`.
 
